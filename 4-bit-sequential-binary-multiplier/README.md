@@ -44,17 +44,8 @@ After four multiplier bits have been processed, the controller enters `DoneS` an
 
 ## My Contributions
 
-This repository is based on an ECE 3561 course project that included a provided architecture and starter VHDL files.
+This repository is the final product of an optional ECE final course project that included a provided architecture, all figures are provided in the project report.  
 
-My implementation work included:
-
-- Implementing the system-controller finite state machine in `Controller.vhd`
-- Extracting the counter logic from the original controller into a separate reusable `CounterN.vhd` module
-- Instantiating and connecting `CounterN` in the top-level multiplier design
-- Integrating the controller and datapath components
-- Simulating the completed design and checking multiplication results using waveform analysis and the provided testbench
-
-`AdderN.vhd`, `RegN.vhd`, and the original testbench were supplied as part of the course project and are included here for completeness.
 
 ## Verification
 
@@ -96,6 +87,3 @@ The completed simulation was also inspected using waveform analysis to verify th
     └── Project-3-Report.pdf
 ```
 
-## Academic Context
-
-Completed as part of **ECE 3561** coursework. This repository is intended to document the design, implementation, and verification work for portfolio and educational purposes.
